@@ -1,5 +1,7 @@
 package com.hao.util;
 
+import com.hao.util.base.StringUtil;
+
 import javax.servlet.http.HttpServletRequest;
 import java.io.*;
 import java.net.HttpURLConnection;

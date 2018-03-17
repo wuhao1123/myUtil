@@ -1,9 +1,6 @@
-/*
- * Copyright 2015 imiansha.com All right reserved. This software is the confidential and proprietary information of
- * imiansha.com ("Confidential Information"). You shall not disclose such Confidential Information and shall use it only
- * in accordance with the terms of the license agreement you entered into with imiansha.com.
- */
 package com.hao.util;
+
+import com.hao.util.base.DateUtil;
 
 import java.text.MessageFormat;
 import java.util.Date;

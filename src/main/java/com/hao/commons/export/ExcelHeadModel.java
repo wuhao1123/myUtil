@@ -1,4 +1,4 @@
-package com.hao.util.dto;
+package com.hao.commons.export;
 
 import java.io.Serializable;
 

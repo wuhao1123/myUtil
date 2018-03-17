@@ -7,6 +7,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import com.hao.util.base.StringUtil;
 import org.apache.poi.hssf.usermodel.HSSFCell;
 import org.apache.poi.hssf.usermodel.HSSFDataFormatter;
 import org.apache.poi.hssf.usermodel.HSSFRow;
@@ -17,12 +18,12 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-import com.hao.util.dto.ValidateException;
+import com.hao.util.base.ValidateException;
 
 /**
  * 类ImportExcelUtil.java的实现描述：excel导入处理分析数据
  * 
- * @author leon 2017年1月4日 下午8:33:25
+ * @author 吴昊 2018年3月17日09:01:15
  */
 public class ImportExcelUtil {
 
@@ -55,8 +56,8 @@ public class ImportExcelUtil {
      * @return
      * @throws Exception
      * @throws ValidateException
-     * @time 2015年11月30日
-     * @author yangdong
+     * @time 2018年3月17日09:01:24
+     * @author 吴昊
      */
     public static List<Map<Integer, Object>> dealDataForExcel(String fileName, File file,
                                                               int importMaxRowNo) throws Exception, ValidateException {

@@ -1,4 +1,4 @@
-package com.hao.util;
+package com.hao.util.base;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

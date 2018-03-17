@@ -1,7 +1,6 @@
 package com.hao.commons.export;
 
-import com.hao.util.dto.ExcelHeadModel;
-import com.hao.util.dto.ValidateException;
+import com.hao.util.base.ValidateException;
 import jodd.util.StringUtil;
 import org.apache.poi.hssf.usermodel.*;
 import org.apache.poi.hssf.util.HSSFColor;

@@ -1,5 +1,4 @@
-
-package com.hao.util.dto;
+package com.hao.util.base;
 
 import io.swagger.annotations.ApiModelProperty;
 import org.apache.commons.lang.builder.ToStringBuilder;

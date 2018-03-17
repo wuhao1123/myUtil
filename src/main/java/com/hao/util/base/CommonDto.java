@@ -1,7 +1,5 @@
+package com.hao.util.base;
 
-package com.hao.util.dto;
-
-import com.hao.util.DateUtil;
 import io.swagger.annotations.ApiModelProperty;
 import org.springframework.format.annotation.DateTimeFormat;
 

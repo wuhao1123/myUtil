@@ -1,11 +1,4 @@
-/*
- * Copyright 2016 bianxianmao.com All right reserved. This software is the confidential and proprietary information of
- * bianxianmao.com ("Confidential Information"). You shall not disclose such Confidential Information and shall use it
- * only in accordance with the terms of the license agreement you entered into with bianxianmao.com.
- */
-package com.hao.util;
-
-import com.hao.util.dto.ValidateException;
+package com.hao.util.base;
 
 /**
  * @ClassName CommonValidate.java
@@ -14,7 +7,7 @@ import com.hao.util.dto.ValidateException;
  */
 public class CommonValidate {
 
-    public static final CommonValidate me = new CommonValidate();
+    public static final CommonValidate ME = new CommonValidate();
 
     /**
      * 方法实现描述:校验param是否为空

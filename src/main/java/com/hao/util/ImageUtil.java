@@ -1,4 +1,3 @@
-
 package com.hao.util;
 
 import java.awt.Color;
@@ -12,6 +11,7 @@ import java.io.IOException;
 
 import javax.imageio.ImageIO;
 
+import com.hao.util.base.StringUtil;
 import com.tinify.Tinify;
 
 /**

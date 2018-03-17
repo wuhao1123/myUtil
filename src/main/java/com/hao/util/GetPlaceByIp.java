@@ -19,7 +19,7 @@ public class GetPlaceByIp {
     /**
      * 方法描述:根据ip获得城市信息（百度api：http://api.map.baidu.com/location/ip?ak=F454f8a5efe5e577997931cc01de3974&ip=" + ip）
      * 
-     * @author leon 2016年9月16日 下午5:06:14
+     * @author 吴昊 2018年3月17日09:01:42
      * @param ip
      * @return
      * @throws IOException

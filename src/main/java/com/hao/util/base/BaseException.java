@@ -1,5 +1,4 @@
-
-package com.hao.util.dto;
+package com.hao.util.base;
 
 import java.io.PrintStream;
 import java.io.PrintWriter;

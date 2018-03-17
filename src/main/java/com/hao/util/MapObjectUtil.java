@@ -9,14 +9,14 @@ import java.util.Map;
 /**
  * 类MapObjectUtil.java的实现描述：TODO 类实现描述
  * 
- * @author leon 2017年5月10日 下午3:30:27
+ * @author 吴昊 2018年3月17日09:02:46
  */
 public class MapObjectUtil {
 
     /**
      * 方法描述:map转object
      * 
-     * @author leon 2017年5月10日 下午3:30:54
+     * @author 吴昊 2018年3月17日09:02:51
      * @param map
      * @param beanClass
      * @return
@@ -44,7 +44,7 @@ public class MapObjectUtil {
     /**
      * 方法描述:object转map
      * 
-     * @author leon 2017年5月10日 下午3:31:16
+     * @author 吴昊 2018年3月17日09:02:59
      * @param obj
      * @return
      */

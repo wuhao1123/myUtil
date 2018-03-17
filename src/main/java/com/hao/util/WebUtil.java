@@ -1,5 +1,6 @@
 package com.hao.util;
 
+import com.hao.util.base.StringUtil;
 import org.apache.commons.lang3.StringUtils;
 
 import javax.servlet.http.Cookie;

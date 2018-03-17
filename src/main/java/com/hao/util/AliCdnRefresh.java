@@ -1,4 +1,3 @@
-
 package com.hao.util;
 
 import com.aliyun.oss.ClientException;
@@ -8,6 +7,7 @@ import com.aliyuncs.cdn.model.v20141111.RefreshObjectCachesRequest;
 import com.aliyuncs.cdn.model.v20141111.RefreshObjectCachesResponse;
 import com.aliyuncs.profile.DefaultProfile;
 import com.aliyuncs.profile.IClientProfile;
+import com.hao.util.base.CommonValidate;
 
 /**
  * @ClassName AliCdnRefresh.java
@@ -32,9 +32,9 @@ public class AliCdnRefresh {
      * @return
      */
     public static RefreshObjectCachesResponse reflushFileCDN(String accessKeyId, String secret, String url) {
-        CommonValidate.me.checkParam(accessKeyId);
-        CommonValidate.me.checkParam(secret);
-        CommonValidate.me.checkParam(url);
+        CommonValidate.ME.checkParam(accessKeyId);
+        CommonValidate.ME.checkParam(secret);
+        CommonValidate.ME.checkParam(url);
         RefreshObjectCachesRequest describe = new RefreshObjectCachesRequest();
         describe.setObjectPath(url);
         describe.setObjectType(OBJECT_TYPE_FILE);
@@ -50,9 +50,9 @@ public class AliCdnRefresh {
      * @return
      */
     public static RefreshObjectCachesResponse reflushPackageCDN(String accessKeyId, String secret, String packageUrl) {
-        CommonValidate.me.checkParam(accessKeyId);
-        CommonValidate.me.checkParam(secret);
-        CommonValidate.me.checkParam(packageUrl);
+        CommonValidate.ME.checkParam(accessKeyId);
+        CommonValidate.ME.checkParam(secret);
+        CommonValidate.ME.checkParam(packageUrl);
         RefreshObjectCachesRequest describe = new RefreshObjectCachesRequest();
         describe.setObjectPath(packageUrl);
         describe.setObjectType(OBJECT_TYPE_DIRECTORY);

@@ -1,4 +1,4 @@
-package com.hao.util;
+package com.hao.util.base;
 
 import java.sql.Timestamp;
 import java.text.DateFormat;

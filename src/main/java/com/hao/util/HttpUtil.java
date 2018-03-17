@@ -15,7 +15,6 @@ import java.util.Map.Entry;
  * @ClassName HttpUtil.java
  * @Description 功能描述： http请求工具类，可发送get、post请求返回数据
  * @author 吴昊 2018年3月6日20:02:38
- * @CopyRight 杭州微财网络科技有限公司
  */
 public class HttpUtil {
 

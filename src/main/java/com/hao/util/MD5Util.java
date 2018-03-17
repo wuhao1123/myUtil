@@ -1,6 +1,7 @@
 package com.hao.util;
 
-import com.hao.util.dto.ValidateException;
+import com.hao.util.base.StringUtil;
+import com.hao.util.base.ValidateException;
 import org.apache.commons.codec.digest.DigestUtils;
 
 import javax.servlet.http.HttpServletRequest;

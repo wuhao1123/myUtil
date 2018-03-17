@@ -1,6 +1,7 @@
 
 package com.hao.util;
 
+import com.hao.util.base.StringUtil;
 import net.sourceforge.pinyin4j.PinyinHelper;
 import net.sourceforge.pinyin4j.format.HanyuPinyinCaseType;
 import net.sourceforge.pinyin4j.format.HanyuPinyinOutputFormat;

@@ -7,6 +7,8 @@ import com.aliyuncs.exceptions.ServerException;
 import com.aliyuncs.profile.DefaultProfile;
 import com.aliyuncs.profile.IClientProfile;
 import com.aliyuncs.sms.model.v20160927.SingleSendSmsRequest;
+import com.hao.util.base.CommonValidate;
+import com.hao.util.base.StringUtil;
 
 /**
  * @ClassName AliYunSmsUtil.java
@@ -38,12 +40,12 @@ public class AliYunSmsUtil {
      */
     public static boolean sendValidateCodeMsg(String accessKeyId, String secret, String signName, String phone,
                                               String msgContent, String msgTemplateCode) {
-        CommonValidate.me.checkParam(accessKeyId);
-        CommonValidate.me.checkParam(secret);
-        CommonValidate.me.checkParam(signName);
-        CommonValidate.me.checkParam(phone);
-        CommonValidate.me.checkParam(msgContent);
-        CommonValidate.me.checkParam(msgTemplateCode);
+        CommonValidate.ME.checkParam(accessKeyId);
+        CommonValidate.ME.checkParam(secret);
+        CommonValidate.ME.checkParam(signName);
+        CommonValidate.ME.checkParam(phone);
+        CommonValidate.ME.checkParam(msgContent);
+        CommonValidate.ME.checkParam(msgTemplateCode);
         boolean isSendSuccess = false;
         try {
             IClientProfile profile = DefaultProfile.getProfile(REGION_ID, accessKeyId, secret);
@@ -82,11 +84,11 @@ public class AliYunSmsUtil {
      */
     public static boolean sendMsg(String accessKeyId, String secret, String signName, String phone, String msgContent,
                                   String msgTemplateCode) {
-        CommonValidate.me.checkParam(accessKeyId);
-        CommonValidate.me.checkParam(secret);
-        CommonValidate.me.checkParam(signName);
-        CommonValidate.me.checkParam(phone);
-        CommonValidate.me.checkParam(msgTemplateCode);
+        CommonValidate.ME.checkParam(accessKeyId);
+        CommonValidate.ME.checkParam(secret);
+        CommonValidate.ME.checkParam(signName);
+        CommonValidate.ME.checkParam(phone);
+        CommonValidate.ME.checkParam(msgTemplateCode);
         boolean isSendSuccess = false;
         try {
             IClientProfile profile = DefaultProfile.getProfile(REGION_ID, accessKeyId, secret);

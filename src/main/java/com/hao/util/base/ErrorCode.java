@@ -1,4 +1,4 @@
-package com.hao.util.dto;
+package com.hao.util.base;
 
 import java.util.HashMap;
 import java.util.Map;

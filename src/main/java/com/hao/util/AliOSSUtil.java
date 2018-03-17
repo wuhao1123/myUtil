@@ -1,4 +1,3 @@
-
 package com.hao.util;
 
 import com.aliyun.oss.ClientException;
@@ -8,6 +7,9 @@ import com.aliyun.oss.model.CannedAccessControlList;
 import com.aliyun.oss.model.CreateBucketRequest;
 import com.aliyun.oss.model.PutObjectRequest;
 import com.aliyun.oss.model.PutObjectResult;
+import com.hao.util.base.CommonValidate;
+import com.hao.util.base.DateUtil;
+import com.hao.util.base.StringUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -181,9 +183,9 @@ public class AliOSSUtil {
      */
     public static String upload(String accessKeyId, String secret, File file, String bucketName, String fileHost,
                                 String filePath) {
-        CommonValidate.me.checkParam(file);
-        CommonValidate.me.checkParam(bucketName);
-        CommonValidate.me.checkParam(fileHost);
+        CommonValidate.ME.checkParam(file);
+        CommonValidate.ME.checkParam(bucketName);
+        CommonValidate.ME.checkParam(fileHost);
         // 创建OSS客户端
         OSSClient ossClient = new OSSClient(END_POINT, accessKeyId, secret);
         try {
@@ -256,9 +258,9 @@ public class AliOSSUtil {
      */
     public static String upload(String accessKeyId, String secret, InputStream inputStream, String bucketName,
                                 String fileHost, String filePath) throws Exception {
-        CommonValidate.me.checkParam(inputStream);
-        CommonValidate.me.checkParam(bucketName);
-        CommonValidate.me.checkParam(fileHost);
+        CommonValidate.ME.checkParam(inputStream);
+        CommonValidate.ME.checkParam(bucketName);
+        CommonValidate.ME.checkParam(fileHost);
         // 创建OSS客户端
         OSSClient ossClient = new OSSClient(END_POINT, accessKeyId, secret);
         try {

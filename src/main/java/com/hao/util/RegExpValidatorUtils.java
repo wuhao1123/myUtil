@@ -1,5 +1,6 @@
-
 package com.hao.util;
+
+import com.hao.util.base.StringUtil;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

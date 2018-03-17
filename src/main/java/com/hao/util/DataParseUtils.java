@@ -2,7 +2,8 @@ package com.hao.util;
 
 import com.alibaba.fastjson.JSON;
 import com.github.pagehelper.PageInfo;
-import com.hao.util.dto.ResultModel;
+import com.hao.util.base.ResultModel;
+import com.hao.util.base.StringUtil;
 
 import java.util.List;
 

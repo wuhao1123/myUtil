@@ -1,4 +1,4 @@
-package com.hao.util;
+package com.hao.util.base;
 
 import org.apache.commons.lang3.StringUtils;
 

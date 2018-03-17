@@ -1,5 +1,7 @@
 package com.hao.util;
 
+import com.hao.util.base.StringUtil;
+
 import java.math.BigDecimal;
 import java.util.regex.Pattern;
 

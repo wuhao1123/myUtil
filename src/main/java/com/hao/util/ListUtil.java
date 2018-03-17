@@ -7,8 +7,7 @@ import java.util.List;
 /**
  * @ClassName ListUtil.java
  * @Description 功能描述： 集合操作类
- * @author leon 2017年9月15日 下午6:21:59
- * @CopyRight 杭州微财网络科技有限公司
+ * @author 吴昊 2018年3月17日09:02:11
  */
 public class ListUtil {
 
@@ -18,9 +17,8 @@ public class ListUtil {
      * @param resList 待拆分的集合
      * @param count 拆分后每个集合的数据量
      * @return
-     * @time 2016年1月29日
-     * @author leon
-     * @CopyRight 杭州微财网络科技有限公司
+     * @time 2018年3月17日09:02:19
+     * @author 吴昊
      */
     public static <T> List<List<T>> splitList(List<T> resList, int count) {
 
@@ -62,9 +60,8 @@ public class ListUtil {
      * @param startNum 开始
      * @param endNum 结束
      * @return
-     * @time 2016年1月29日
-     * @author leon
-     * @CopyRight 杭州微财网络科技有限公司
+     * @time 2018年3月17日09:02:28
+     * @author 吴昊
      */
     public static List<Object> getTotalPage(int listSize, int startNum, int endNum) {
         // ================将数据分页==============
@@ -118,8 +115,7 @@ public class ListUtil {
      * 
      * @param params
      * @return
-     * @author leon
-     * @CopyRight 杭州微财网络科技有限公司
+     * @author 吴昊
      */
     public static Object[] listToArray(List<Object> params) {
         Object[] objs = new Object[0];
